@@ -1,9 +1,9 @@
 CC = gcc
 LDIR = lib
-LIBS = -L $(LDIR) -l freebl3 \
+LIBS = -L . -l freebl3 \
 -L $(LDIR) -l mozpkix \
--L $(LDIR) -l nspr4 \
--L $(LDIR) -l nss3 \
+-L . -l nspr4 \
+-L . -l nss3 \
 -L $(LDIR) -l mozpkix-testlib \
 -L $(LDIR) -l nssckbi \
 -L $(LDIR) -l nssdbm3 \
@@ -53,6 +53,7 @@ zip.o: zip.c
 
 clean: 
 	rm -rf object
+	rm *.o
 
 uninstall: 
 	rm signtool
