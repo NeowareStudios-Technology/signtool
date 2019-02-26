@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.4
+Created-By: 1.6.0_38-b05 (Sun Microsystems Inc.)
+Built-By: bruno
+Extension-Name:  JMeter
+Specification-Title:  Apache JMeter
+Specification-Vendor:  Apache Software Foundation
+Implementation-Vendor:  Apache Software Foundation
+Implementation-Vendor-Id:  org.apache
+Implementation-Version: 2.9 r1437961
+X-Compile-Source-JDK: 1.6
+X-Compile-Target-JDK: 1.6
+
